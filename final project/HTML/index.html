@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3BOOD | Portfolio</title>
+  <link rel="stylesheet" href="/final project/CSS/index.css" />
+  <link rel="icon" href="/final project/images/icone.jpg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  
+</head>
+<body>
+
+  <!--=== scroll bar ===-->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  
+  <nav class="navbar" id="mainNavbar">
+    <div class="logo">
+      <div class="logo-icon">3</div>
+      <span class="logo-text">BOOD | Portfolio</span>
+    </div>
+  
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About Me</a></li>
+      <li><a href="#skills" class="nav-link">My Skills</a></li>
+      <li><a href="#education" class="nav-link">Education & Experience</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#customers" class="nav-link">My Customers</a></li>
+      <li><a href="#contact" class="nav-link">Contact Us</a></li>
+  
+      <li class="theme-toggle-item">
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+      </li>
+    </ul>
+  </nav>
+  
+
+  <!--=== header ===-->
+  <header class="header" id="home">
+    <div class="header-left">
+      <h1>Abdelrahman J. ElDasht</h1>
+      <p id="job-title-output"></p>
+      <p class="intro">Specializing in information technology, programming, web interface development, and user experience design.</p>
+    </div>
+    <div class="header-right">
+      <img src="/final project/images/fout1.png" alt="Profile Photo" class="avatar" id="avatar" />
+    </div>
+  </header>
+
+  <!--=== Sections ===-->
+  <section id="about" class="section about-section">
+    <div class="about-container">
+      <!--=== The image ===-->
+      <div class="about-image fade-in">
+        <img src="/final project/images/fout2.png" alt="My Avatar" class="about-avatar" />
+      </div>
+  
+      <!--=== Text + Button ===-->
+      <div class="about-text slide-in">
+        <h2>About Me</h2>
+        <p>
+          I'm Abdulrahman, anIT ,programming student with a strong focus on front-end development, user experience, and clean responsive web design
+          </p>
+        <a href="/docs/ABD.cv.pdf" download class="download-btn">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="skills" class="section skills-section">
+    <div class="skills-container">
+      <!--=== left: Progress Bars ===-->
+      <div class="skills-bars">
+        <h2>My Skills</h2>
+  
+        <div class="skill">
+          <p>HTML</p>
+          <div class="progress-bar"><div class="fill" data-width="95%"></div></div>
+        </div>
+
+        <div class="skill">
+          <p>CSS</p>
+          <div class="progress-bar"><div class="fill" data-width="90%"></div></div>
+        </div>
+        <div class="skill">
+          <p>JavaScript</p>
+          <div class="progress-bar"><div class="fill" data-width="85%"></div></div>
+        </div>
+        <div class="skill">
+          <p>Java,JavaFx</p>
+          <div class="progress-bar"><div class="fill" data-width="88%"></div></div>
+        </div>
+      </div>
+  
+      <!--===Right: Text + button ===-->
+      <div class="skills-info">
+        <p>
+          Specializing in building responsive, user-friendly web interfaces using HTML, CSS, and JavaScript. I focus on performance, code clarity, 
+          cross-browser compatibility, and cross-device responsiveness. and Java programmer and front-end designer based on Java FX.      
+          </p>
+        <a href="mailto:jehadbood@gmail.com" class="contact-btn">Contact Me</a>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="education" class="section timeline-section">
+    <h2>Education & Experience</h2>
+    <div class="timeline">
+      <!--=== Item 1 ===-->
+      <div class="timeline-item left">
+        <div class="content">
+          <h3>Graduation 2026</h3>
+          <p>Islamic University - College of Information Technology - Software Development Major.</p>
+        </div>
+      </div>
+  
+      <!--=== Item 2 ===-->
+      <div class="timeline-item right">
+        <div class="content">
+          <h3>Summer 2025 - Front-End User Interface Development Intern</h3>
+          <p>Implemented projects on real-world websites using HTML, CSS, and JavaScript.</p>
+        </div>
+      </div>
+  
+      <!--=== Item 3 ===-->
+      <div class="timeline-item left">
+        <div class="content">
+          <h3>2023 - Programmer</h3>
+          <p>Programming projects using Java, Java FX</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--=== Projects Section ===-->
+<section id="projects" class="section projects-section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+
+    <!--=== Project Card 1 ===-->
+    <div class="project-card">
+      <img src="/final project/images/11.jpg" alt="Portfolio Website" class="pp">
+      <h3>Personal Portfolio Website</h3>
+      <p>HTML, CSS, JavaScript — A fully responsive portfolio to showcase my skills, projects, and contact info.</p>
+    </div>
+
+    <!--=== Project Card 2 ===-->
+    <div class="project-card">
+      <img src="/final project/images/22.jpg" alt="To-Do App" class="pp">
+      <h3>Advanced To-Do List</h3>
+      <p>React, TailwindCSS — A modern task manager with filtering, deadlines, and local storage support.</p>
+    </div>
+
+    <!--=== Project Card 3 ===-->
+    <div class="project-card">
+      <img src="/final project/images/33.jpg" alt="Weather App" class="pp">
+      <h3>Weather Forecast App</h3>
+      <p>JavaScript, API Integration — Real-time weather app using OpenWeather API and location-based data.</p>
+    </div>
+
+    <!--=== Project Card 4 ===-->
+    <div class="project-card">
+      <img src="/final project/images/44.jpg" alt="Blog Platform" class="pp">
+      <h3>Dynamic Blog Platform</h3>
+      <p>PHP, MySQL — A content management system where users can create, edit, and manage articles easily.</p>
+    </div>
+
+    <!--=== Project Card 5 ===-->
+    <div class="project-card">
+      <img src="/final project/images/55.jpg" alt="Chat App" class="pp">
+      <h3>Real-time Chat App</h3>
+      <p>Node.js, Socket.io — A secure messaging platform for instant communication with multiple rooms.</p>
+    </div>
+
+    <!--=== Project Card 6 ===-->
+    <div class="project-card">
+      <img src="/final project/images/66.jpg" alt="Landing Page" class="pp">
+      <h3>Marketing Landing Page</h3>
+      <p>HTML, CSS — A clean and fast single-page design for product promotion with responsive layout.</p>
+    </div>
+
+  </div>
+</section>
+
+<!--=== My Customers Section ===-->
+<section id="customers" class="section customers-section">
+  <h2>My Customers</h2>
+  <div class="customers-grid">
+
+    <!--=== Customer 1 ===-->
+    <div class="customer-card">
+      <img src="/final project/images/2.jpg" alt="Client 1">
+      <h3>Sanad Jehad</h3>
+      <div class="stars">★★★★★</div>
+      <p>"Professional and highly responsive. Delivered a top-notch website beyond expectations."</p>
+    </div>
+
+    <!--=== Customer 2 ===-->
+    <div class="customer-card">
+      <img src="/final project/images/3.jpg" alt="Client 2">
+      <h3>Nada Nail</h3>
+      <div class="stars">★★★★☆</div>
+      <p>"Excellent design sense and attention to detail. My project came out amazing!"</p>
+    </div>
+
+    <!--=== Customer 3 ===-->
+    <div class="customer-card">
+      <img src="/final project/images/1.jpg" alt="Client 3">
+      <h3>Mohammad Jehad</h3>
+      <div class="stars">★★★★★</div>
+      <p>"Fast delivery and outstanding support. I would definitely work with him again!"</p>
+    </div>
+
+  </div>
+</section>
+
+  
+    <!--=== Contact Us ===-->
+
+  <section id="contact" class="section contact-section">
+    <h2>Contact Us</h2>
+    <form id="contact-form" novalidate>
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Your Name">
+        <small class="error-message" id="name-error"></small>
+      </div>
+  
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Your Email">
+        <small class="error-message" id="email-error"></small>
+      </div>
+  
+      <div class="form-group">
+        <textarea id="message" placeholder="Your Message (max 500 chars)" maxlength="500"></textarea>
+        <div class="char-count" id="char-count">0/500</div>
+        <small class="error-message" id="message-error"></small>
+      </div>
+  
+      <button type="submit" class="send-btn">Send</button>
+      <div class="confirmation" id="confirmation-message"></div>
+    </form>
+  </section>
+  
+      <!--=== footer ===-->
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; <span id="currentYear"></span>3BOOD | Portfolio. All rights reserved.</p>
+  
+      <div class="quick-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+  
+      <div class="social-icons">
+        <a href="https://www.instagram.com/abood_jehad_dt?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1HaGJsntu4/" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/3abood_19_?t=1qsHPpBL--gN0KZdW0sl9A&s=08" class="social-icon" target="_blank" style="font-weight: bold; font-size: 22px;">X </a>
+      </div>
+      
+    </div>
+  </footer>
+
+     <!--=== scrollToTopBtn ===-->
+
+  <button id="scrollToTopBtn" class="scroll-to-top-btn">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+      <!--=== script ===-->
+
+  <script src="/final project/js/index.js"></script>
+
+  
+</body>
+</html>
