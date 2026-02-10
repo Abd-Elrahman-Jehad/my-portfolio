@@ -5,19 +5,18 @@ A modern and responsive personal portfolio website built with HTML, CSS, and Jav
 ## Overview
 This website is designed as a simple and professional portfolio layout with a focus on clean UI, readable content, and organized project presentation.
 
-## Preview
-
 ### Home Page
-![Home Page](final-project/screenshots/Home.png)
+![Home Page](final%20project/screenshots/home.png)
 
 ### About Me & Skills
-![About Me & Skills](final-project/screenshots/Abo.png)
+![About Me & Skills](final%20project/screenshots/about-me-skills.png)
 
 ### Projects Section
-![Projects](final-project/screenshots/Projects.png)
+![Projects](final%20project/screenshots/Projects.png)
 
 ### Contact Section
-![Contact](final-project/screenshots/Contact_Us.png)
+![Contact](final%20project/screenshots/contact-us.png)
+
 
 
 ## Key Sections
