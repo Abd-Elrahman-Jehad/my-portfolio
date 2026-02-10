@@ -5,6 +5,21 @@ A modern and responsive personal portfolio website built with HTML, CSS, and Jav
 ## Overview
 This website is designed as a simple and professional portfolio layout with a focus on clean UI, readable content, and organized project presentation.
 
+## Preview
+
+### Home Page
+![Home Page](final-project/screenshots/Home.png)
+
+### About Me & Skills
+![About Me & Skills](final-project/screenshots/Abo.png)
+
+### Projects Section
+![Projects](final-project/screenshots/Projects.png)
+
+### Contact Section
+![Contact](final-project/screenshots/Contact_Us.png)
+
+
 ## Key Sections
 - About / Introduction
 - Projects showcase
@@ -32,9 +47,15 @@ final-project/
 ├─ js/
 │ └─ index.js
 ├─ images/
-│ └─ (assets)
-└─ docs/
-└─ ABD.cv.pdf
+│ └─ (assets & icons)
+├─ screenshots/
+│ ├─ Home.png
+│ ├─ About_Me&My_Skills.png
+│ ├─ Projects.png
+│ └─ ... ..
+├─ docs/
+│ └─ ABD.cv.pdf
+└─ README.md
 
 ```
 ## Running Locally
