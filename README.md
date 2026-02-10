@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A personal portfolio website developed using **HTML**, **CSS**, and **JavaScript** to present my profile, projects, and technical skills in a modern and structured layout.
+A modern and responsive personal portfolio website built with HTML, CSS, and JavaScript to showcase my projects, technical skills, and front-end development capabilities.
 
 ## Overview
 This website is designed as a simple and professional portfolio layout with a focus on clean UI, readable content, and organized project presentation.
