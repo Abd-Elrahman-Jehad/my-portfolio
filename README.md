@@ -23,7 +23,7 @@ This website is designed as a simple and professional portfolio layout with a fo
 <h3>Projects Section</h3>
 <p align="center">
   <img src="final%20project/screenshots/Projects.png" width="380"/>
-  <img src="final%20project/screenshots/Projects 2.png" width="380"/>
+  <img src="final%20project/screenshots/Projects_2.png" width="380"/>
 </p>
 
 <h3>Contact Section</h3>
